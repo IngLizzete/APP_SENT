@@ -1,0 +1,54 @@
+/* Encabezado */
+header {
+    background-color: #591f1f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenido principal */
+main {
+    margin: 30px;
+}
+
+/* Formulario de entrada */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #cf5a5a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ad4141;
+}
+
+/* Resultado del análisis */
+.result {
+    margin-top: 20px;
+    text-align: center;
+    color: #591f1f;
+    font-size: 18px;
+}
