@@ -52,3 +52,19 @@ button:hover {
     color: #591f1f;
     font-size: 18px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+.author-info {
+    margin: 0 auto;
+    max-width: 400px;
+}
+.author-info p {
+    margin: 5px 0;
+}
